@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!------------------------------ Css Link ------------------------------------------>
+    <link rel="stylesheet" href="styles.css">
+    
+    <!---------------------------- Javascript Link -------------------------------------->
+    <script src="script.js" defer></script>
+    
+    <title>Javascript Sidebar Menu</title>
+</head>
+<body>
+
+    <!-------------------------- navigation class with list items ------------------------->
+    <div class="navigation">
+        <ul>
+            <li class="list active">
+                <b></b>
+                <b></b>
+                <a href="#">
+                    <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                    <span class="title">home</span>
+                </a>
+            </li>
+            <li class="list">
+                <b></b>
+                <b></b>
+                <a href="#">
+                    <span class="icon"><ion-icon name="person-circle-outline"></ion-icon></span>
+                    <span class="title">profile</span>
+                </a>
+            </li>
+            <li class="list">
+                <b></b>
+                <b></b>
+                <a href="#">
+                    <span class="icon"><ion-icon name="chatbubble-ellipses-outline"></ion-icon></span>
+                    <span class="title">messages</span>
+                </a>
+            </li>
+            <li class="list">
+                <b></b>
+                <b></b>
+                <a href="#">
+                    <span class="icon"><ion-icon name="settings-outline"></ion-icon></span>
+                    <span class="title">settings</span>
+                </a>
+            </li>
+            <li class="list">
+                <b></b>
+                <b></b>
+                <a href="#">
+                    <span class="icon"><ion-icon name="help-outline"></ion-icon></span>
+                    <span class="title">help</span>
+                </a>
+            </li>
+            <li class="list">
+                <b></b>
+                <b></b>
+                <a href="#">
+                    <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                    <span class="title">password</span>
+                </a>
+            </li>
+            <li class="list">
+                <b></b>
+                <b></b>
+                <a href="#">
+                    <span class="icon"><ion-icon name="log-out-outline"></ion-icon></span>
+                    <span class="title">sign out</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!---------------------------- toggle class ----------------------->
+    <div class="toggle">
+        <ion-icon name="menu-outline" class="open"></ion-icon>
+        <ion-icon name="close-outline" class="close"></ion-icon>
+    </div>
+
+    <!-------------------------- ion-icons Js Src Pack -------------------------------->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
